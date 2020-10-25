@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Vhen Larson",
+    "middleName": "Arriesgado",
+    "lastName": "Dela Cuesta",
+    "position": "Front End Web Developer",
+    "birthDate": "June 13, 1998"
+  },
+  {
+    "firstName": "Lyle Vince",
+    "middleName": "Arriesgado",
+    "lastName": "Dela Cuesta",
+    "position": "Back End Web Developer",
+    "birthDate": "August 24, 1997"
+  },
+  {
+    "firstName": "Noctis",
+    "middleName": "Lucis",
+    "lastName": "Caelum",
+    "position": "Full Stack Web Developer",
+    "birthDate": "December 25, 1995"
+  }
+]

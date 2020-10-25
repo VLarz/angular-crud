@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row">
+    <div class="input-field col s4 right">
+      <input id="search" type="text" class="validate"
+      [(ngModel)]="search"
+      (keyup)="onSearch()">
+      <label class="active" for="search">Search</label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <table class="highlight">
+        <thead>
+          <tr>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let employee of searchEmployees">
+            <td>{{ employee?.fullName }}</td>
+            <td>{{ employee?.position }}</td>
+            <td>{{ employee?.Age }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+</div>

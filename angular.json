@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/materialize-css/dist/css/materialize.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/materialize-css/dist/js/materialize.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-crud"
+    }
+  },
+  "defaultProject": "angular-crud",
+  "cli": {
+    "analytics": "056b11f5-60bf-4562-8aac-0ea73773bf55"
+  }
 }
